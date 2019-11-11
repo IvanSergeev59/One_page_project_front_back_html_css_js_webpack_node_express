@@ -13,10 +13,13 @@ app.use('/',routesUser)
 app.listen(PORT, () => {
     // Если всё работает, консоль покажет, какой порт приложение слушает
     console.log(`App listening on port ${PORT}`)
-  
-})
+  })
 
 app.use(express.static(__dirname + '/public'));
+app.get('/*',(req,res)=> {
+    res.status('404').send({ "message": "Запрашиваемый ресурс не найден" });
+  });
+    
 
 
 

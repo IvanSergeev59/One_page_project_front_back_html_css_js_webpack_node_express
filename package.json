@@ -5,7 +5,7 @@
   "scripts": {
     "start": "nodemon app.js"
   },
-  "author": "",
+  "author": "Ivan Sergeev",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^6.6.0",
@@ -16,5 +16,5 @@
     "express": "^4.17.1"
   },
   "keywords": [],
-  "description": ""
+  "description": "project 12 express node.js"
 }
