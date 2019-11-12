@@ -15,7 +15,7 @@ routerUser.get('/users/:id',(req,res)=> {
         res.send(user)
     }
     else {
-        res.send({ "message": "Нет пользователя с таким id" })
+        res.status('404').send({ "message": "Нет пользователя с таким id" })
     }
     
         
