@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Project12_11_11_2019
 version 1.0.2
 
@@ -39,7 +38,3 @@ npm i cssnano --save-dev
 npm install gh-pages --save-dev
 
 10)npm install --save-dev cross-env
-=======
-# ebtbtehtntht
-gewg
->>>>>>> 6f84c4d0437145a5710ce5f783ac2e3a1b57290e
