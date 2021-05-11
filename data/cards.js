@@ -2,7 +2,7 @@ module.exports.cards = [{
   likes: [
     {
       name: "Tim Berners-Lee",
-      about: "Inventor, scientist",
+      about: "Inventor, scientist", 
       avatar: "https://media.wired.com/photos/5c86f3dd67bf5c2d3c382474/4:3/w_2400,h_1800,c_limit/TBL-RTX6HE9J-(1).jpg",
       _id: "d285e3dceed844f902650f40",
     },
